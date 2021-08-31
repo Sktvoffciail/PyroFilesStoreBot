@@ -14,7 +14,7 @@ async def ReplyForward(message: Message, file_id: int):
             f"**Here is Sharable Link of this file:**\n"
             f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(str(file_id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
-            disable_web_page_preview=True, quote=True)
+            disable_web_page_preview=True, quote=False)
     except FloodWait as e:
         await asyncio.sleep(e.x)
         await ReplyForward(message, file_id)
