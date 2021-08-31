@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @JAsuran
 
 import asyncio
 from configs import Config
@@ -12,7 +12,7 @@ async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
             f"**Here is Sharable Link of this file:**\n"
-            f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(str(file_id))}\n\n"
+            f"https://t.me/{Config.BOT_USERNAME}?start=JAsuran_{str_to_b64(str(file_id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True, quote=False)
     except FloodWait as e:
@@ -35,5 +35,5 @@ async def MediaForward(bot: Client, user_id: int, file_id: int):
 
 async def SendMediaAndReply(bot: Client, user_id: int, file_id: int):
     sent_message = await MediaForward(bot, user_id, file_id)
-    await ReplyForward(message=sent_message, file_id=file_id)
+    #await ReplyForward(message=sent_message, file_id=file_id)
     await asyncio.sleep(2)
