@@ -13,7 +13,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+                text="🚫 Sorry Sir Or Bro, You are Banned to use me. Contact my [Support Group](https://t.me/Sk_Tv_Group)🚫",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -29,15 +29,15 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
+            text="**Please Join My Updates Channel to use Me**\n\n"
                  "Due to Overload, Only Channel Subscribers can use the Bot!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("💖 Join Now Sk Tv Official 💖", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                        InlineKeyboardButton("🔻 Refresh 🔺", callback_data="refreshForceSub")
                     ]
                 ]
             ),
@@ -47,7 +47,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+            text="Something went Wrong. Contact my [Support Group](https://t.me/Sk_Tv_Group).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
