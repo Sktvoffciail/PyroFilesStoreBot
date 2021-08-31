@@ -11,7 +11,15 @@ from handlers.helpers import str_to_b64
 async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f""
+            f"💖 Join And support Us 💖  
+
+‼️ @Sk_Tv_Official ‼️
+
+Join Now ↗️ @Sk_Tv_Official
+
+Join Now ↗️ @Sk_Tamil_Serial_Bots
+
+Join bot ♨️ @Sk_All_In_One_Bot"
             f""
             f"",
             disable_web_page_preview=True, quote=False)
