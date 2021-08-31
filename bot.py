@@ -55,8 +55,8 @@ async def start(bot: Client, cmd: Message):
 
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About God", callback_data="aboutdevs")
+                        InlineKeyboardButton("⚡About Me ⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡About My God⚡", callback_data="aboutdevs")
                     ]
                 ]
             )
