@@ -11,9 +11,9 @@ from handlers.helpers import str_to_b64
 async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"💖 Join And Support Us 💖"
             f""
-            f"__To Retrive the Stored File, just open the link!__",
+            f""
+            f"",
             disable_web_page_preview=True, quote=False)
     except FloodWait as e:
         await asyncio.sleep(e.x)
