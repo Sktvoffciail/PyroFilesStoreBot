@@ -51,6 +51,10 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("💖 Main Channel 💖", url="https://t.me/Sk_Tv_Official")
                     ],
                     [
+                        InlineKeyboardButton("🌐 WEBSITE 🌐", url="https://www.sktamilserialbots.com/")
+
+                    ],
+                    [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About God", callback_data="aboutdevs")
                     ]
@@ -322,6 +326,11 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("💖 Group 💖", url="https://t.me/Sk_Tv_Group"),
                         InlineKeyboardButton("💖 Main Channel 💖", url="https://t.me/Sk_Tv_Official")
                     ],
+                    [
+                        InlineKeyboardButton("🌐 WEBSITE 🌐", url="https://www.sktamilserialbots.com/")
+
+                    ],
+
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs")
