@@ -289,8 +289,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://www.sktamilserialbots.com/")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About God", callback_data="aboutdevs")
+                        InlineKeyboardButton("⚡Go Home⚡", callback_data="gotohome"),
+                        InlineKeyboardButton("⚡About My God⚡", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -308,8 +308,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://www.sktamilserialbots.com/")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡Go Home ⚡", callback_data="gotohome")
                     ]
                 ]
             )
@@ -332,8 +332,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
 
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡About My God⚡", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -386,8 +386,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("💖 Main Channel 💖", url="https://t.me/Sk_Tv_Official")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About God", callback_data="aboutdevs")
+                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡About God⚡", callback_data="aboutdevs")
                     ]
                 ]
             )
