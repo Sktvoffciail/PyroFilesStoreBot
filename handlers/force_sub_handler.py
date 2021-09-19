@@ -34,7 +34,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💖 Join Now Sk Tv Official 💖", url=invite_link.invite_link)
+                        InlineKeyboardButton("💖 Join Now Sk Tv Official 💖", url=https://t.me/Sk_Tv_Official)
                     ],
                     [
                         InlineKeyboardButton("🔻 Refresh 🔺", callback_data="refreshForceSub")
