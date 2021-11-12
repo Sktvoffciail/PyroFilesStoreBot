@@ -353,15 +353,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
                 await cmd.message.edit(
-                    text="**💖 மன்னிக்கவும் நீங்கள் இன்னும் எங்களுடைய மெயின் சேனலில் Join செய்யவில்லை 💖**\n\n"
-                         "💖 எங்களுடைய மெயின் சேனலில் Join செய்தால் மட்டுமே என்னை பயன்படுத்த முடியும் 💖",
+                    text="**⚠️ Sorry Sir Your Not Subscribed Our Premium Membership Plan So Please Subscribe First And Use Me ⚠️**\n\n"
+                         "⚠️ மன்னிக்கவும் நீங்கள் எங்கள் பிரீமியம் உறுப்பினர் திட்டத்திற்கு குழுசேரவில்லை எனவே முதலில் குழுசேர்ந்து பிறகு என்னை பயன்படுத்தவும் ⚠️",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🔻 Join Main Channel 🔺", url=invite_link.invite_link)
+                                InlineKeyboardButton("💸 Buy Premium Membership 💸", url=https://t.me/Sk8903)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("⭕ I Buyed Premium Membership ⭕", callback_data="refreshmeh")
                             ]
                         ]
                     ),
