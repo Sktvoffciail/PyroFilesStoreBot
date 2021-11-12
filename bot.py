@@ -55,7 +55,7 @@ async def start(bot: Client, cmd: Message):
 
                     ],
                     [
-                        InlineKeyboardButton("⚡About Me ⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡FEATURES⚡", callback_data="features"),
                         InlineKeyboardButton("⚡About My God⚡", callback_data="aboutdevs")
                     ]
                 ]
@@ -308,7 +308,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://www.sktamilserialbots.com/")
                     ],
                     [
-                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡FEATURES⚡", callback_data="features"),
                         InlineKeyboardButton("⚡Go Home ⚡", callback_data="gotohome")
                     ]
                 ]
@@ -332,7 +332,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
 
                     [
-                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡FEATURES⚡", callback_data="features"),
                         InlineKeyboardButton("⚡About My God⚡", callback_data="aboutdevs")
                     ]
                 ]
@@ -386,7 +386,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("💖 Main Channel 💖", url="https://t.me/Sk_Tv_Official")
                     ],
                     [
-                        InlineKeyboardButton("⚡About Me⚡", callback_data="aboutbot"),
+                        InlineKeyboardButton("⚡FEATURES⚡", callback_data="features"),
                         InlineKeyboardButton("⚡About God⚡", callback_data="aboutdevs")
                     ]
                 ]
