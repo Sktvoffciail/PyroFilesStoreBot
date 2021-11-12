@@ -29,15 +29,15 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**💖 நண்பா நீங்கள் இன்னும் எங்களுடைய மெயின் சேனலில் Join செய்யவில்லை 💖**\n\n"
-                 "💖 Join செய்தால் மட்டுமே என்னை பயன்படுத்த முடியும் 💖",
+            text="**⚠️ Sorry Sir Your Not Subscribed Our Premium Membership Plan So Please Subscribe First And Use Me ⚠️**\n\n"
+                 "⚠️ மன்னிக்கவும் நீங்கள் எங்கள் பிரீமியம் உறுப்பினர் திட்டத்திற்கு குழுசேரவில்லை எனவே முதலில் குழுசேர்ந்து பிறகு என்னை பயன்படுத்தவும் ⚠️ ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💖 Join Now Sk Tv Official 💖", url="https://t.me/Sk_Tv_Official")
+                        InlineKeyboardButton("💸 Buy Premium Membership 💸", url="https://t.me/Sk8903")
                     ],
                     [
-                        InlineKeyboardButton("🔻 Refresh 🔺", callback_data="refreshForceSub")
+                        InlineKeyboardButton("⭕ I Buyed Premium Membership ⭕", callback_data="refreshForceSub")
                     ]
                 ]
             ),
