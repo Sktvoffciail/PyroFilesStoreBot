@@ -277,9 +277,9 @@ async def clear_user_batch(bot: Client, m: Message):
 async def button(bot: Client, cmd: CallbackQuery):
 
     cb_data = cmd.data
-    if "aboutbot" in cb_data:
+    if "features" in cb_data:
         await cmd.message.edit(
-            Config.ABOUT_BOT_TEXT,
+            Config.FEATURES,
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
